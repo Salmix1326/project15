@@ -1,5 +1,5 @@
 import { createApi, fakeBaseQuery } from "@reduxjs/toolkit/query/react";
-import DbOperations from "./api/DbOperations";
+import DbOperations from "./api/DBOperations";
 
 const db = new DbOperations("dreams");
 
@@ -96,3 +96,4 @@ export const {
   useDeleteDreamMutation,
   useAddDreamMutation,
 } = dreamsApi;
+
